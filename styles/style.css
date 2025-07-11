@@ -177,3 +177,24 @@ margin: 10px 0px;
     border-radius: 100%;
 }
 /* user feedback styles ended here */
+
+/* ready-container styles start here */
+.ready-container {
+    text-align: center;
+    padding: 25px 35px;
+    background-color: white;
+    margin-top: 60px;
+}
+.ready-container h4 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.ready-container p{
+    color: #00000080;
+    margin-bottom: 15px;
+}
+.ready-container img {
+    margin-top: 20px;
+    border-radius: 30px;
+}
