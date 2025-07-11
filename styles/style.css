@@ -119,3 +119,34 @@ main {
     color: #00000080;
 }
 /* joined-user styles ended here */
+
+/* user feedback styles start here */
+.user-feedback-container {
+    margin-top: 60px;
+}
+.user-feedback-container h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #252432;
+    margin-bottom: 45px;
+}
+.user-feedback-content {
+
+}
+.user-one {
+
+}
+
+.user-two{
+
+}
+
+.user-three {
+
+}
+
+.avatar-content {
+
+}
+/* user feedback styles ended here */
