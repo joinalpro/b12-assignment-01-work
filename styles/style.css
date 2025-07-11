@@ -3,8 +3,12 @@
     padding: 0;
     font-family: "Raleway", sans-serif;
 }
-.header {
-    background-image: url('../Assets/hero-bg.png');
+/* standard styles */
+.color-primary{
+    color:#4E47FF;
+}
+.header-section {
+    background-image: url("../Assets/hero-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +23,7 @@ nav {
     /* border:1px solid tomato; */
     display: flex;
     justify-content: space-between;
-    max-width: 1280px;
+    max-width: 960px;
     margin: 0 auto;
     height: 100px;
     align-items: center;
@@ -32,12 +36,13 @@ nav button {
 .btn-primary {
     background-color: #4E47FF;
     border: none;
+    padding: 8px 32px;
     color: white;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-.header-text {
+.header-container {
 align-items: center;
 text-align: center;
 height: 240px;
@@ -46,11 +51,71 @@ margin: 0 auto;
 margin-top: 120px;
 /* border: 1px solid blueviolet; */
 }
-.headline {
+.header-container h1 {
     font-size: 60px;
     font-weight: 700;
+    text-align: center;
 }
 .action-button {
     padding: 15px 40px;
     margin-top: 20px;
 }
+/* main section styles start here*/
+main {
+    background-color: #f5f8ff;
+}
+.main-section {
+    width: 960px;
+    margin: auto;
+}
+/* see-action-container styles here */
+
+.see-action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+.see-action-container h4 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.see-action-container p {
+    color: #252432;
+    margin: 15px 0px;
+}
+
+.see-action-container img {
+    border-radius: 30px;
+}
+
+/* joined-user styles start here */
+.joined-user-container {
+    background-color: #4e47ff1a;
+    padding: 30px 40px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.joined-user-content {
+    display: flex;
+    justify-content: space-around;
+}
+.joined-user-container h3 {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    color: #252432;
+    margin-bottom: 10px;
+}
+.joined-user-content h4{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.joined-user-content p {
+    color: #00000080;
+}
+/* joined-user styles ended here */
